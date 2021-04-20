@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import org.mockito.stubbing.Answer;
+
 
 
 import java.util.List;
@@ -24,7 +24,7 @@ public class RetotecnicoStepdefinitions {
 
     @Given("^El usuario quiere registrarse en la pagina de UTtest$")
     public void elUsuarioQuiereRegistrarseEnLaPaginaDeUTtest() {
-        OnStage.theActorCalled("pedro").attemptsTo(OpenUp.thePage(),Join.ThePage());
+        OnStage.theActorCalled("pedro").wasAbleTo(OpenUp.thePage(),Join.ThePage());
     }
 
 

@@ -4,7 +4,7 @@ import co.com.choucair.certification.retotecnico.userinterface.DatosPasoCuatro;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
-import org.mockito.stubbing.Answer;
+
 
 public class Answerr implements Question<Boolean> {
     private String strverificado;
